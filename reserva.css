@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url(reserva.jfif);
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-overflow: ellipsis;
+  }
+
+  button {
+    background-color: #a01604;
+    color: rgba(0, 0, 0, 0.986);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    font-family: Courier;
+}
+button:hover {
+    background-color: #7e0f00;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex; 
+    align-items:center;
+      position:absolute;
+      top: 50%;
+      left: 50%;
+       transform: translate(-50%, -50%);
+      }
+
+input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
